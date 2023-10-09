@@ -11,8 +11,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
 section{
     height: 100vh;
     width: 100%;
+}
+
+.linha{
+    border-bottom: 3px solid var(--cor-secundaria);
 }
