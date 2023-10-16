@@ -6,6 +6,10 @@
     --cor-sombra:#0009;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: var(--cor-secundaria);
     font-family: 'Poppins', sans-serif;
