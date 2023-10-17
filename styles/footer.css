@@ -1,0 +1,128 @@
+footer{
+    background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+}
+
+.contatos-container{
+    display: flex;
+    padding-bottom: 42px;
+}
+
+.contato-logo{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:8px;
+    gap: 12px;
+}
+
+.contato-logo p{
+    font-size: 1.5rem;
+    color: #fff;
+    width: 82px;
+    font-family: pattaya, sans-serif ;
+}
+
+.contato-links{
+    color: #fff;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.contato-links p{
+    font-size: 1.5rem;
+    width: 80px;
+}
+
+.contato-links ul{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-weight: 200;
+}
+
+.contatos{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contatos > p{
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+
+.contatos ul{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos li{
+    display: flex;
+    gap: 12px;
+}
+
+.contatos i{
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.contatos li p{
+    color: #fff;
+    font-weight: 200;
+}
+
+.contato-sociais{
+    flex-grow: 1;
+}
+
+.contato-sociais ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contato-sociais a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    padding-top: 9px;
+}
+
+.contato-sociais i{
+    color: #fff;
+    font-size: 24px;
+}
+
+.linha{
+    border: 1px solid var(--cor-secundaria);
+}
+
+.autor-container{
+    padding-top: 25px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #fff;
+}
