@@ -15,6 +15,22 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.link-home{
+    position: fixed;
+    height: 64px;
+    width: 64px;
+    bottom: 0;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    transform: translateX(-50%) rotate(90deg) ;
+    z-index: 999;
+    color: var(--cor-primaria);
+    animation: pulando 1.2s alternate infinite;
+}
+
 section{
     height: 100vh;
     width: 100%;
@@ -22,4 +38,13 @@ section{
 
 .linha{
     border-bottom: 3px solid var(--cor-secundaria);
+}
+
+@keyframes pulando{
+    0%{
+        transform: translateX(-50%) rotate(90deg) scale(1.2);
+    }
+    100%{
+        transform: translateX(-50%) rotate(90deg) scale(1.5);
+    }
 }
