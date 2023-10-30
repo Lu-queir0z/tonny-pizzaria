@@ -24,23 +24,23 @@
 
     <header>
         <div class="logo-container">
-            <img src="./img/logo.svg" alt="logo Tony Pizzaria">
+            <img src="./img/logo.svg" alt="logo Tony Pizzaria" >
             <p>Tony Pizzaria</p>
         </div>
 
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="#home">Home</a>
+                    <a href="#home" class="header-home">Home</a>
                 </li>
                 <li>
-                    <a href="#cardapio">Cardapio</a>
+                    <a href="#cardapio" class="header-cardapio">Cardapio</a>
                 </li>
                 <li>
-                    <a href="#servico">serviços</a>
+                    <a href="#servico" class="header-servico">serviços</a>
                 </li>
                 <li>
-                    <a href="#contatos">Contato</a>
+                    <a href="#contatos" class="header-contato">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -60,12 +60,13 @@
                     <h2>Não é apenas uma <span class="texto-laranja">Pizza</span> ,é uma experiência!</h2>
                 </div>
                 <div>
-                    <img src="./img/pizza-principal.png" alt="Pizza">
+                    <img src="./img/pizza-principal.png" alt="Pizza" class="img-principal">
                 </div>
             </div>
 
             <div class="destaque-container">
-                <div class="produto">
+
+                <div class="produto" id="produto-1">
                     <img class="add" src="./img/mais.svg" alt="">
                     <img src="./img/pizza1.png" alt="">
                     <div class="info">
@@ -77,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="produto">
+                <div class="produto" id="produto-2">
                     <img class="add" src="./img/mais.svg" alt="">
                     <img src="./img/pizza2.png" alt="">
                     <div class="info">
@@ -89,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="produto">
+                <div class="produto" id="produto-3">
                     <img class="add" src="./img/mais.svg" alt="">
                     <img src="./img/pizza3.png" alt="">
                     <div class="info">
@@ -101,9 +102,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="produto">
+                <div class="produto" id="produto-4">
                     <img class="add" src="./img/mais.svg" alt="">
-                    <img src="./img/pizza4.png" alt="">
+                    <img src="./img/pizza4.png" alt="" cl>
                     <div class="info">
                         <div class="info-texto">
                             Pizza 4 queijos
@@ -116,18 +117,18 @@
             </div>
         </section>
 
-        <section class="cardapio" id="cardapio">
+        <section class="cardapio" id="cardapio"> 
             <div class="cardapio-titulo">
                 <img src="./img/logo.svg" alt="Logo tony-pizzaira">
                 <h3>CARDÁPIO</h3>
             </div>
-            <div class="cardapio-favoritas linha">
+            <div class="cardapio-favoritas-linha">
                 <div class="header-area">
                     <p>Minhas Pizzas Favoritas</p>
                     <p>VER TUDO</p>
                 </div>
                 <div class="produto-container">
-                    <div class="produto">
+                    <div class="produto" id="pizza-favoritos1">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/pizza4.png" alt="">
                         <div class="info">
@@ -139,7 +140,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="produto">
+                    <div class="produto" id="pizza-favoritos2">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/pizza2.png" alt="">
                         <div class="info">
@@ -151,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="produto">
+                    <div class="produto" id="pizza-favoritos3">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/pizza1.png" alt="">
                         <div class="info">
@@ -163,7 +164,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="produto">
+                    <div class="produto" id="pizza-favoritos4">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/pizza3.png" alt="">
                         <div class="info">
@@ -183,7 +184,7 @@
                     <p>VER TUDO</p>
                 </div>
                 <div class="produto-container">
-                    <div class="produto">
+                    <div class="produto" id="pizza-menu1">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/pizza4.png" alt="">
                         <div class="info">
@@ -195,7 +196,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="produto">
+                    <div class="produto" id="pizza-menu2">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/pizza3.png" alt="">
                         <div class="info">
@@ -207,7 +208,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="produto">
+                    <div class="produto" id="pizza-menu3">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/pizza2.png" alt="">
                         <div class="info">
@@ -219,7 +220,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="produto">
+                    <div class="produto" id="pizza-menu4">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/pizza1.png" alt="">
                         <div class="info">
@@ -239,7 +240,7 @@
                     <p>VER TUDO</p>
                 </div>
                 <div class="produto-container">
-                    <div class="bebidas">
+                    <div class="bebidas" id="bebida1">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/coca-cola.png" alt="">
                         <div class="info">
@@ -251,7 +252,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bebidas">
+                    <div class="bebidas" id="bebida2">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/coca-cola.png" alt="">
                         <div class="info">
@@ -263,7 +264,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bebidas">
+                    <div class="bebidas" id="bebida3">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/coca-cola.png" alt="">
                         <div class="info">
@@ -275,7 +276,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bebidas">
+                    <div class="bebidas" id="bebida4">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/coca-cola.png" alt="">
                         <div class="info">
@@ -287,7 +288,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bebidas">
+                    <div class="bebidas" id="bebida5">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/coca-cola.png" alt="">
                         <div class="info">
@@ -299,7 +300,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bebidas">
+                    <div class="bebidas" id="bebida6">
                         <img class="add" src="./img/mais.svg" alt="">
                         <img src="./img/coca-cola.png" alt="">
                         <div class="info">
@@ -321,17 +322,17 @@
                 <h3>SERVIÇOS</h3>
             </div>
             <div class="servicos-conteudo">
-                <div class="fast-food servico">
+                <div class="fast-food-servico">
                     <img src="./img/fast-food.png" alt="" class="servico-icon">
                     <h4 class="servico-titulo"> FAST FOOD</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sint explicabo quo atque iure, tenetur dolores recusandae fuga architecto iusto exercitationem labore consequuntur, deleniti, qui cum facilis sit voluptatum eaque?</p>
                 </div>
-                <div class="drive-thru servico">
-                    <img src="./img/drive-thru.png" alt="" class="">
+                <div class="drive-thru-servico">
+                    <img src="./img/drive-thru.png" alt="" class="servico-icon">
                     <H4 class="servico-titulo"> DRIVE THRU</H4>
                     <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere iure dolorum quibusdam omnis beatae, possimus similique dignissimos, culpa totam quidem cum! Dolores numquam quae, rerum exercitationem nisi incidunt vitae quod.</P>
                 </div>
-                <div class="deliveres servico">
+                <div class="deliveres-servico">
                     <img src="./img/deliveres.png" alt="" class="servico-icon">
                     <h4 class="servico-titulo">DELIVERES</h4>
                     <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus consequuntur sequi repellat id vero totam, sapiente facere? Esse tenetur, perferendis, fugit labore, dolore velit aut sunt nostrum ducimus eveniet corporis?</P>

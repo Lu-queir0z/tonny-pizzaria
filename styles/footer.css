@@ -126,3 +126,8 @@ footer{
     font-style: italic;
     color: #fff;
 }
+@media (max-width:768px){
+    .contato-links{
+        display: none;
+    }
+}

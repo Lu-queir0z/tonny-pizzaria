@@ -48,3 +48,37 @@
     padding-right: 80px;
 }
 
+@media (max-width:768px){
+    .home{
+        background-color: #F49A45;
+        background-image: url(../img/background-tablet.png);
+        background-position: top;
+    }
+    .conteudo-container{
+        background-image: url(../img/pizza-principal-tablet.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 130px;
+        margin-left: 20px;
+    }
+    main .texto{
+        position: absolute;
+        right: 15%;
+        text-align: center;
+        width: 320px;
+        font-size: 50px;
+    }
+    .img-principal {
+        display: none;
+    }
+    #produto-3{
+        display: none;
+    }
+    #produto-4{
+        display: none;
+    }
+
+}

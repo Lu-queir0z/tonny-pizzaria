@@ -48,3 +48,8 @@ section{
         transform: translateX(-50%) rotate(90deg) scale(1.5);
     }
 }
+@media (max-width:768px){
+    .link-home{
+        display: none;
+    }
+}

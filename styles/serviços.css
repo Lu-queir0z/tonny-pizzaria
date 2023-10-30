@@ -53,3 +53,41 @@
     font-weight: 600;
     text-shadow: 2px 2px 8px var(--cor-sombra);
 }
+
+@media (max-width:768px){
+    main .sevico{
+        background-color: #FBDDC1;
+        flex-direction: column;
+    }
+    main .servicos-titulo{
+        justify-content: center;
+    }
+    main .servicos-titulo h3{
+        font-size: 50px;
+
+    }
+    .fast-food-servico{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vw;
+        border: 4px solid var(--cor-primaria);
+        border-radius: 30px;
+        padding: 10px;
+    }/*
+    .drive-thru-servico{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vw;
+        border: 4px solid var(--cor-primaria);
+        border-radius: 30px;
+        padding: 10px;
+    }
+    .deliveres-servico{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vw;
+        border: 4px solid var(--cor-primaria);
+        border-radius: 30px;
+        padding: 10px;
+    }*/
+}

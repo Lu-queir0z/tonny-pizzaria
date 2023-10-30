@@ -97,3 +97,40 @@
 .cardapio-bebidas .bebidas .info-texto{
     font-size: 0.8rem;
 }
+
+@media (max-width:768px){
+    main .cardapio {
+        background-color: #FEF8F2;
+    }
+    main .cardapio-titulo{
+        
+        justify-content: center;
+    }
+    main .cardapio-titulo h3{
+        font-size: 50px;
+    }
+    .cardapio-favoritas-linha{
+        color: var(--cor-primaria);
+    }
+    #pizza-favoritos3{
+        display: none;
+    }
+    #pizza-favoritos4{
+        display: none;
+    }
+    #pizza-menu3{
+        display: none;
+    }
+    #pizza-menu4{
+        display: none;
+    }
+    #bebida4{
+        display: none;
+    }
+    #bebida5{
+        display: none;
+    }
+    #bebida6{
+        display: none;
+    }
+}

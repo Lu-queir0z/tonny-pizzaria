@@ -60,3 +60,26 @@ header .botao{
     color: var(--cor-primaria);
     font-weight:600x ;
 }
+
+@media (max-width:768px){
+    header .menu ul a:hover{
+        display: none;
+    }
+
+
+    header .logo-container{
+        font-size: 30px;
+    }
+    .header-contato{
+        display: none;
+    }
+    .header-servico{
+        display: none;
+    }
+    .header-home{
+        font-size: 30px;
+    }
+    .header-cardapio{
+        font-size: 30px;
+    }
+}
