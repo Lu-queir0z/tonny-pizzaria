@@ -101,6 +101,7 @@
 @media (max-width:768px){
     main .cardapio {
         background-color: #FEF8F2;
+        justify-content: space-between;
     }
     main .cardapio-titulo{
         

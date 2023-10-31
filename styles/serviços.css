@@ -24,7 +24,7 @@
     justify-content: space-between;
 }
 
-.servico{
+.servico {
     height: 500px;
     width: 400px;
     border: 4px solid var(--cor-primaria);
@@ -55,9 +55,10 @@
 }
 
 @media (max-width:768px){
-    main .sevico{
+    main .servicos{
         background-color: #FBDDC1;
         flex-direction: column;
+        width: 100vw;
     }
     main .servicos-titulo{
         justify-content: center;
@@ -66,28 +67,68 @@
         font-size: 50px;
 
     }
-    .fast-food-servico{
+    .servicos-conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+    .servicos-conteudo > div{
         display: flex;
         flex-direction: row-reverse;
-        width: 100vw;
+    }
+
+    .fast-food-servico{
         border: 4px solid var(--cor-primaria);
-        border-radius: 30px;
-        padding: 10px;
-    }/*
-    .drive-thru-servico{
+        border-radius: 30px;  
+        padding-left: 1px;
+        margin: 0px;
+    }
+    .texto-fast-food{
+        position: relative;
         display: flex;
+        flex-direction:column ;
+        align-items: flex-start;
+    }
+    .texto-fast-food h4{
+        color: var(--cor-primaria);
+        font-size: 50px;
+    }
+    .texto-fast-food p{
+        font-size: 1rem ;
+        font-weight: 600;
+        width: 401px;
+    }
+
+
+    .drive-thru-servico{
         flex-direction: row-reverse;
         width: 100vw;
         border: 4px solid var(--cor-primaria);
         border-radius: 30px;
         padding: 10px;
     }
-    .deliveres-servico{
+    .texto-drive-thru{
+        position: relative;
         display: flex;
+        flex-direction:column ;
+        align-items: flex-start;
+    }
+    .texto-drive-thru h4{
+        color: var(--cor-primaria);
+        font-size: 50px;
+    }
+    .texto-drive-thru p{
+        font-size: 1rem ;
+        font-weight: 600;
+        width: 401px;
+    }
+
+    .deliveres-servico{
+        display: none;
         flex-direction: row-reverse;
         width: 100vw;
         border: 4px solid var(--cor-primaria);
         border-radius: 30px;
         padding: 10px;
-    }*/
+    }
+
 }
