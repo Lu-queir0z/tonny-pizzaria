@@ -65,8 +65,6 @@ header .botao{
     header .menu ul a:hover{
         display: none;
     }
-
-
     header .logo-container{
         font-size: 30px;
     }
@@ -81,5 +79,17 @@ header .botao{
     }
     .header-cardapio{
         font-size: 30px;
+    }
+}
+
+@media (max-width:375px) {
+    header{
+        display: flex;
+        gap: 38px;
+        left: 10%;
+        top: 3%;
+    }
+    .menu {
+        display: none;
     }
 }

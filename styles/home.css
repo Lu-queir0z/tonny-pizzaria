@@ -80,5 +80,13 @@
     #produto-4{
         display: none;
     }
+}
 
+@media (max-width:375px) {
+    #home .texto{
+        display: none;
+    }
+    .destaque-container{
+        display: none;
+    }
 }
