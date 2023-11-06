@@ -83,8 +83,21 @@
 }
 
 @media (max-width:375px) {
-    #home .texto{
-        display: none;
+    .home{
+        background-image: url(../img/background-mobile.png);
+    }
+    .home .texto h2{
+        font-size: 44px;
+        text-align: center;
+    }
+    .conteudo-container{
+        background-image:url(../img/pizza-principal-mobile.png) ;
+        background-position: center;
+    }
+    .texto span{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 200px;
     }
     .destaque-container{
         display: none;
