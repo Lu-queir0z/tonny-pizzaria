@@ -135,3 +135,20 @@
         display: none;
     }
 }
+@media (max-width:375px){
+    .cardapio-titulo h3{
+        
+    }
+    #bebida3{
+        display: none;
+    }
+    #bebida2{
+        display: none;
+    }
+    #pizza-menu2{
+        display: none;
+    }
+    .cardapio-favoritas-linha{
+        display: none;
+    }
+}
