@@ -126,8 +126,26 @@ footer{
     font-style: italic;
     color: #fff;
 }
+
 @media (max-width:768px){
     .contato-links{
         display: none;
+    }
+}
+
+@media (max-width:375px) {
+    .contatos-container{
+        padding-left: 19px;
+        flex-direction: column;
+    }
+    .contato-sociais{
+        flex-direction: row-reverse;
+    }
+    .contatos{
+        justify-content: center;
+    }
+    .contato-logo{
+        justify-content:flex-start ;
+        align-items: flex-start;
     }
 }
