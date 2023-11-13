@@ -91,3 +91,27 @@
         font-size: 1rem;
     }
 }
+
+@media (max-width:375px){
+    .servico {
+        height: 100%;
+        width: 90vw;
+    }
+    .servicos-conteudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        gap: 70px;
+    }
+    .servico h4{
+        font-size: 32px;        display: flex;
+        align-items: center;
+    }
+    .servico-icon{
+        padding: 10px 10px 10px 10px;
+    }
+    .servicos-conteudo p {
+        display: none;
+    }
+}
