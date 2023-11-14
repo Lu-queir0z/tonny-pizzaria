@@ -134,18 +134,32 @@ footer{
 }
 
 @media (max-width:375px) {
+    footer {
+        padding-top: 6px;
+    }
     .contatos-container{
-        padding-left: 19px;
+        padding-left: 7px;
         flex-direction: column;
-    }
-    .contato-sociais{
-        flex-direction: row-reverse;
-    }
-    .contatos{
-        justify-content: center;
+        gap: 45px;
+        display: grid;
+        grid-template-areas: 
+        " logo logo "
+        " sociais sociais"
+        " contatos contatos ";
     }
     .contato-logo{
         justify-content:flex-start ;
         align-items: flex-start;
+        gap: 0;
+        padding: 0;
+        grid-area: logo;
+    }
+    .contatos{
+        grid-area: contatos;
+    }
+    .contato-sociais ul{
+        flex-direction: row ;
+        gap: 12px;
+        grid-area: sociais;
     }
 }
